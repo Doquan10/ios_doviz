@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="json_doviz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Currency Converter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-MY-Ps9">
+                                <rect key="frame" x="97" y="84" width="221" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="5N3-eQ-Hq2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TRY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g49-Kf-ftl">
+                                <rect key="frame" x="50" y="192" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CAD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbG-AH-fSX">
+                                <rect key="frame" x="50" y="445" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ujt-uh-99C">
+                                <rect key="frame" x="153" y="604" width="108" height="66"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="bWI-kQ-fxX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Get Rates"/>
+                                <connections>
+                                    <action selector="getButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h3o-zm-5lj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="EUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7N-lN-cDP">
+                                <rect key="frame" x="50" y="317" width="268" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hbG-AH-fSX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="445" id="1bp-mE-C1Q"/>
+                            <constraint firstItem="Ujt-uh-99C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153" id="5tE-fy-mf8"/>
+                            <constraint firstItem="Tk2-MY-Ps9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="HfK-sv-4Rn"/>
+                            <constraint firstItem="g49-Kf-ftl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Lat-gU-cd6"/>
+                            <constraint firstItem="g49-Kf-ftl" firstAttribute="leading" secondItem="X7N-lN-cDP" secondAttribute="leading" id="UGU-nE-cdO"/>
+                            <constraint firstItem="Tk2-MY-Ps9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ub5-lo-Gat"/>
+                            <constraint firstItem="X7N-lN-cDP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="317" id="cQ5-V0-B1p"/>
+                            <constraint firstItem="g49-Kf-ftl" firstAttribute="trailing" secondItem="X7N-lN-cDP" secondAttribute="trailing" id="gNI-T2-1sK"/>
+                            <constraint firstItem="g49-Kf-ftl" firstAttribute="top" secondItem="Tk2-MY-Ps9" secondAttribute="bottom" constant="52" id="mou-fQ-MQr"/>
+                            <constraint firstItem="Tk2-MY-Ps9" firstAttribute="trailing" secondItem="g49-Kf-ftl" secondAttribute="trailing" id="nop-rD-Pd6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ujt-uh-99C" secondAttribute="bottom" constant="192" id="oQ0-jS-XRL"/>
+                            <constraint firstItem="X7N-lN-cDP" firstAttribute="trailing" secondItem="hbG-AH-fSX" secondAttribute="trailing" id="qNv-MP-x3Y"/>
+                            <constraint firstItem="X7N-lN-cDP" firstAttribute="leading" secondItem="hbG-AH-fSX" secondAttribute="leading" id="uwf-5r-79v"/>
+                            <constraint firstItem="Tk2-MY-Ps9" firstAttribute="centerX" secondItem="Ujt-uh-99C" secondAttribute="centerX" id="vWr-1p-uuu"/>
+                            <constraint firstItem="Tk2-MY-Ps9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="ypP-mc-STC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cadLabel" destination="hbG-AH-fSX" id="bvB-ER-sYS"/>
+                        <outlet property="eurLabel" destination="X7N-lN-cDP" id="gpR-Pr-FNm"/>
+                        <outlet property="tryLabel" destination="g49-Kf-ftl" id="v0W-Tm-681"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="95.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

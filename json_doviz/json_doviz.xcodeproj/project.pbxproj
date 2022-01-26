@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEBEDB92272C985200F0B79B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDB91272C985200F0B79B /* AppDelegate.swift */; };
+		AEBEDB94272C985200F0B79B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDB93272C985200F0B79B /* SceneDelegate.swift */; };
+		AEBEDB96272C985200F0B79B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDB95272C985200F0B79B /* ViewController.swift */; };
+		AEBEDB99272C985200F0B79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBEDB97272C985200F0B79B /* Main.storyboard */; };
+		AEBEDB9C272C985200F0B79B /* json_doviz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDB9A272C985200F0B79B /* json_doviz.xcdatamodeld */; };
+		AEBEDB9E272C985500F0B79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBEDB9D272C985500F0B79B /* Assets.xcassets */; };
+		AEBEDBA1272C985500F0B79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBEDB9F272C985500F0B79B /* LaunchScreen.storyboard */; };
+		AEBEDBAC272C985500F0B79B /* json_dovizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDBAB272C985500F0B79B /* json_dovizTests.swift */; };
+		AEBEDBB6272C985500F0B79B /* json_dovizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDBB5272C985500F0B79B /* json_dovizUITests.swift */; };
+		AEBEDBB8272C985500F0B79B /* json_dovizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDBB7272C985500F0B79B /* json_dovizUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEBEDBA8272C985500F0B79B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEBEDB86272C985200F0B79B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBEDB8D272C985200F0B79B;
+			remoteInfo = json_doviz;
+		};
+		AEBEDBB2272C985500F0B79B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEBEDB86272C985200F0B79B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEBEDB8D272C985200F0B79B;
+			remoteInfo = json_doviz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEBEDB8E272C985200F0B79B /* json_doviz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = json_doviz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBEDB91272C985200F0B79B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEBEDB93272C985200F0B79B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEBEDB95272C985200F0B79B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEBEDB98272C985200F0B79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEBEDB9B272C985200F0B79B /* json_doviz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = json_doviz.xcdatamodel; sourceTree = "<group>"; };
+		AEBEDB9D272C985500F0B79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEBEDBA0272C985500F0B79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEBEDBA2272C985500F0B79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBEDBA7272C985500F0B79B /* json_dovizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = json_dovizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBEDBAB272C985500F0B79B /* json_dovizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json_dovizTests.swift; sourceTree = "<group>"; };
+		AEBEDBB1272C985500F0B79B /* json_dovizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = json_dovizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBEDBB5272C985500F0B79B /* json_dovizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json_dovizUITests.swift; sourceTree = "<group>"; };
+		AEBEDBB7272C985500F0B79B /* json_dovizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json_dovizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEBEDB8B272C985200F0B79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBEDBA4272C985500F0B79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBEDBAE272C985500F0B79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEBEDB85272C985200F0B79B = {
+			isa = PBXGroup;
+			children = (
+				AEBEDB90272C985200F0B79B /* json_doviz */,
+				AEBEDBAA272C985500F0B79B /* json_dovizTests */,
+				AEBEDBB4272C985500F0B79B /* json_dovizUITests */,
+				AEBEDB8F272C985200F0B79B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEBEDB8F272C985200F0B79B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEBEDB8E272C985200F0B79B /* json_doviz.app */,
+				AEBEDBA7272C985500F0B79B /* json_dovizTests.xctest */,
+				AEBEDBB1272C985500F0B79B /* json_dovizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEBEDB90272C985200F0B79B /* json_doviz */ = {
+			isa = PBXGroup;
+			children = (
+				AEBEDB91272C985200F0B79B /* AppDelegate.swift */,
+				AEBEDB93272C985200F0B79B /* SceneDelegate.swift */,
+				AEBEDB95272C985200F0B79B /* ViewController.swift */,
+				AEBEDB97272C985200F0B79B /* Main.storyboard */,
+				AEBEDB9D272C985500F0B79B /* Assets.xcassets */,
+				AEBEDB9F272C985500F0B79B /* LaunchScreen.storyboard */,
+				AEBEDBA2272C985500F0B79B /* Info.plist */,
+				AEBEDB9A272C985200F0B79B /* json_doviz.xcdatamodeld */,
+			);
+			path = json_doviz;
+			sourceTree = "<group>";
+		};
+		AEBEDBAA272C985500F0B79B /* json_dovizTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEBEDBAB272C985500F0B79B /* json_dovizTests.swift */,
+			);
+			path = json_dovizTests;
+			sourceTree = "<group>";
+		};
+		AEBEDBB4272C985500F0B79B /* json_dovizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEBEDBB5272C985500F0B79B /* json_dovizUITests.swift */,
+				AEBEDBB7272C985500F0B79B /* json_dovizUITestsLaunchTests.swift */,
+			);
+			path = json_dovizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEBEDB8D272C985200F0B79B /* json_doviz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBEDBBB272C985500F0B79B /* Build configuration list for PBXNativeTarget "json_doviz" */;
+			buildPhases = (
+				AEBEDB8A272C985200F0B79B /* Sources */,
+				AEBEDB8B272C985200F0B79B /* Frameworks */,
+				AEBEDB8C272C985200F0B79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = json_doviz;
+			productName = json_doviz;
+			productReference = AEBEDB8E272C985200F0B79B /* json_doviz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEBEDBA6272C985500F0B79B /* json_dovizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBEDBBE272C985500F0B79B /* Build configuration list for PBXNativeTarget "json_dovizTests" */;
+			buildPhases = (
+				AEBEDBA3272C985500F0B79B /* Sources */,
+				AEBEDBA4272C985500F0B79B /* Frameworks */,
+				AEBEDBA5272C985500F0B79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEBEDBA9272C985500F0B79B /* PBXTargetDependency */,
+			);
+			name = json_dovizTests;
+			productName = json_dovizTests;
+			productReference = AEBEDBA7272C985500F0B79B /* json_dovizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEBEDBB0272C985500F0B79B /* json_dovizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEBEDBC1272C985500F0B79B /* Build configuration list for PBXNativeTarget "json_dovizUITests" */;
+			buildPhases = (
+				AEBEDBAD272C985500F0B79B /* Sources */,
+				AEBEDBAE272C985500F0B79B /* Frameworks */,
+				AEBEDBAF272C985500F0B79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEBEDBB3272C985500F0B79B /* PBXTargetDependency */,
+			);
+			name = json_dovizUITests;
+			productName = json_dovizUITests;
+			productReference = AEBEDBB1272C985500F0B79B /* json_dovizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEBEDB86272C985200F0B79B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AEBEDB8D272C985200F0B79B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AEBEDBA6272C985500F0B79B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AEBEDB8D272C985200F0B79B;
+					};
+					AEBEDBB0272C985500F0B79B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AEBEDB8D272C985200F0B79B;
+					};
+				};
+			};
+			buildConfigurationList = AEBEDB89272C985200F0B79B /* Build configuration list for PBXProject "json_doviz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEBEDB85272C985200F0B79B;
+			productRefGroup = AEBEDB8F272C985200F0B79B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEBEDB8D272C985200F0B79B /* json_doviz */,
+				AEBEDBA6272C985500F0B79B /* json_dovizTests */,
+				AEBEDBB0272C985500F0B79B /* json_dovizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEBEDB8C272C985200F0B79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBEDBA1272C985500F0B79B /* LaunchScreen.storyboard in Resources */,
+				AEBEDB9E272C985500F0B79B /* Assets.xcassets in Resources */,
+				AEBEDB99272C985200F0B79B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBEDBA5272C985500F0B79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBEDBAF272C985500F0B79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEBEDB8A272C985200F0B79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBEDB9C272C985200F0B79B /* json_doviz.xcdatamodeld in Sources */,
+				AEBEDB96272C985200F0B79B /* ViewController.swift in Sources */,
+				AEBEDB92272C985200F0B79B /* AppDelegate.swift in Sources */,
+				AEBEDB94272C985200F0B79B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBEDBA3272C985500F0B79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBEDBAC272C985500F0B79B /* json_dovizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEBEDBAD272C985500F0B79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBEDBB6272C985500F0B79B /* json_dovizUITests.swift in Sources */,
+				AEBEDBB8272C985500F0B79B /* json_dovizUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEBEDBA9272C985500F0B79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEBEDB8D272C985200F0B79B /* json_doviz */;
+			targetProxy = AEBEDBA8272C985500F0B79B /* PBXContainerItemProxy */;
+		};
+		AEBEDBB3272C985500F0B79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEBEDB8D272C985200F0B79B /* json_doviz */;
+			targetProxy = AEBEDBB2272C985500F0B79B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEBEDB97272C985200F0B79B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBEDB98272C985200F0B79B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEBEDB9F272C985500F0B79B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEBEDBA0272C985500F0B79B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEBEDBB9272C985500F0B79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEBEDBBA272C985500F0B79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEBEDBBC272C985500F0B79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RYWWD955M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = json_doviz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.json-doviz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEBEDBBD272C985500F0B79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RYWWD955M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = json_doviz/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.json-doviz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEBEDBBF272C985500F0B79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RYWWD955M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.json-dovizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/json_doviz.app/json_doviz";
+			};
+			name = Debug;
+		};
+		AEBEDBC0272C985500F0B79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RYWWD955M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.json-dovizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/json_doviz.app/json_doviz";
+			};
+			name = Release;
+		};
+		AEBEDBC2272C985500F0B79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RYWWD955M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.json-dovizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = json_doviz;
+			};
+			name = Debug;
+		};
+		AEBEDBC3272C985500F0B79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7RYWWD955M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "deneme.json-dovizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = json_doviz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEBEDB89272C985200F0B79B /* Build configuration list for PBXProject "json_doviz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBEDBB9272C985500F0B79B /* Debug */,
+				AEBEDBBA272C985500F0B79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBEDBBB272C985500F0B79B /* Build configuration list for PBXNativeTarget "json_doviz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBEDBBC272C985500F0B79B /* Debug */,
+				AEBEDBBD272C985500F0B79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBEDBBE272C985500F0B79B /* Build configuration list for PBXNativeTarget "json_dovizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBEDBBF272C985500F0B79B /* Debug */,
+				AEBEDBC0272C985500F0B79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEBEDBC1272C985500F0B79B /* Build configuration list for PBXNativeTarget "json_dovizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEBEDBC2272C985500F0B79B /* Debug */,
+				AEBEDBC3272C985500F0B79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AEBEDB9A272C985200F0B79B /* json_doviz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AEBEDB9B272C985200F0B79B /* json_doviz.xcdatamodel */,
+			);
+			currentVersion = AEBEDB9B272C985200F0B79B /* json_doviz.xcdatamodel */;
+			path = json_doviz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AEBEDB86272C985200F0B79B /* Project object */;
+}
